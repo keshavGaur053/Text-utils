@@ -1,5 +1,19 @@
-#
-<img src="">
+# Text-Utils
+
+
+<div align="center">
+<img  src="https://raw.githubusercontent.com/keshavGaur053/Text-utils/main/media/1.png">
+</div>
+<div align="center">
+<img  src="https://raw.githubusercontent.com/keshavGaur053/Text-utils/main/media/2.png">
+</div>
+
+## Tech Stack
+- CSS
+- BootStrap
+- JavaScript
+- React
+
 
 # Getting Started with Create React App
 
