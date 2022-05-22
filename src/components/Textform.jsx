@@ -20,18 +20,6 @@ export default function TextForm(props) {
     setText(newText);
   };
 
-  //   const handlePaClick = () => {
-  //     let newText = text
-  //     let str="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"
-  //     console.log(newText)
-  //     for(let i=0;i<str.length;i++){
-  //     if(str[i]==newText[i]){
-  // newText.toUpperCase()
-  // setText(newText);
-  //     }
-  //     }
-
-  //   };
 
   const handleOnChange = (event) => {
     setText(event.target.value);
@@ -48,7 +36,7 @@ export default function TextForm(props) {
             value={text}
             onChange={handleOnChange}
             id="myBox"
-            rows="8"
+            rows="5"
             style={{backgroundColor:props.mode==='dark'?'grey':'white',color:props.mode==='dark'?'white':'black' }}
           ></textarea>
         </div>
@@ -68,7 +56,7 @@ export default function TextForm(props) {
         </div>
         <div className="container my-3" >
           <h2>Preview</h2>
-          <p>{text.length>0?text:"Enter the text to preview"}</p>
+          <p>{text.length > 0 ? text:"Enter the text to preview"}</p>
           <h3>Your Text Summary</h3>
           <p>
             {text.split(" ").length} words and {text.length} characters
